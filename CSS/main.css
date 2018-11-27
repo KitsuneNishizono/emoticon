@@ -1,0 +1,68 @@
+body{
+    position: relative;
+    background-color: blanchedalmond;
+}
+#cabeza{
+    height:400px;
+    width:400px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: relative;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    margin-top: 10%;
+}
+#ojos{
+    position: absolute;
+    display: inline-flex;
+    width: 100%;
+}
+.ojitos{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    height: 50%;
+}
+#ojoDerecho{
+    height: 150px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+#ojoIzquierdo{
+    height: 150px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+
+}
+#pupila{
+    height: 50px;
+    width:40px;
+    background-color:black;
+    border-radius: 50%;
+    margin-top: 50%;
+}
+.boquita{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 10%;
+}
+#boca{
+    height: 120px;
+    width: 100px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+}
